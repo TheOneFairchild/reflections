@@ -1,4 +1,11 @@
-When would you want to use a remote repository rather than keeping all your work local?
-If i want to create an opensource project, work on multiple computers, or host a portfolio
+When would you want to use a remote repository rather than keeping all
+your work local?
+If i want to create an opensource project, work on multiple computers,
+or host a portfolio
 for employers to view.
 
+Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
+
+If i am working on a part of a project, I do not want to have to keep 
+reworking my solution to acclimate it to a new code base.
