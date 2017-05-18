@@ -9,3 +9,12 @@ Git automatically stay up-to-date with your remote repository?
 
 If i am working on a part of a project, I do not want to have to keep 
 reworking my solution to acclimate it to a new code base.
+
+Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+Forks - creating a copy of someones repository that you can edit and 
+manipulate while linking original credit to them
+branch - in a commit log, a branch allows editing and adding of features
+while maintaining the functionality of the master branch
+clone - a clone is a copy of a repository so that you can edit it on 
+your own machine, This does not give credit like forking does
