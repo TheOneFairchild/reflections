@@ -1,0 +1,29 @@
+How did viewing a diff between two versions help you spot the bug?
+It allowed me to quickly spot the lines in which there were differences so that I could
+focus on a specific area rather than a whole program searching for a type-o
+
+How could having easy access to the entire history of a file make you a more efficient programmer?
+In the event that you need to revert some changes or recognize where an error started occuring
+having records of what the code looked like then and being able to actually compare versions
+can be immensely helpful
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Being able to actually choose when to commit allows for logical and complete versions of a program to be saved
+rather than the potentially incorrect or uncompilable versions that random commiting would produce
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while
+ others, like Google Docs, treat each file separately?
+Git is designed for programmers who typically will find a use for related files whereas docs are more of a
+one off and will not use multiple file input.
+
+How can you use the commands git log and git diff to view the history of files?
+git log allows me to have access to the commit history and to the comments associated with each, 
+git diff allows me to actually compare the changes associated with two difference commits
+
+How might using version control make you more confident to make changes that could break something?
+If i am going to make a potentially disasterous change to a program, git allows me the 
+confidence to do this because worst case scenario, i revert back to the version which did work, or better
+yet, i could work on a version, test it, all while the working version is available to the public
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I intend to use Git to help me complete the app development course also offered by udacity
