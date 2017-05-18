@@ -4,8 +4,36 @@ of the commits we will make will be stored here for future use in that
 directory
 
 How is the staging area different from the working directory and the
- repository? What value do you think it offers?
+repository? What value do you think it offers?
 The staging area is where commits go before they are sent into the 
 repository and ones which have not been sent to the working directory.
 Instead, these are in a zone where they can be easily altered before
 submission
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+By using the git diff --staged command we are able to compare what is
+in the staging area with what is in the head of the repository.
+This allows us to confirm that there has been a singular logical change 
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+In the event I was experimenting with certain changes or working on a
+side project that used the main branch as a root, the branch function
+would be helpful in organizing and editing the side project
+
+How do the diagrams help you visualize the branch structure?
+Diagrams allow me to see the flow of the structure to better 
+inform me of what node lives on which branch and what the parent node 
+of the branch is
+
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+Merging two branches combines the features present in the heads of both
+branches so that updating a program is easier
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+With automatic merging you have the potential to save time and not talk
+to people, but there can be problems that arise that would otherwise
+be easy to solve.
