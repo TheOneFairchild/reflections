@@ -18,3 +18,9 @@ branch - in a commit log, a branch allows editing and adding of features
 while maintaining the functionality of the master branch
 clone - a clone is a copy of a repository so that you can edit it on 
 your own machine, This does not give credit like forking does
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+I would get in a room with some friends and work on a project together
+thinking of solutions would be easier, but sharing a code base and 
+debugging would be much higher
